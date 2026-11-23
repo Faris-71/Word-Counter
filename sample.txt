@@ -1,0 +1,4 @@
+
+Hello World
+Welcome to our Java project
+This is a Word Counter
