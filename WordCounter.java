@@ -20,10 +20,9 @@ public class WordCounter {
             Map<String, Integer> frequency = new HashMap<>();
 
             while (fileReader.hasNext()) {
-                String word = fileReader.next()
-                        .toLowerCase()
-                        .replaceAll("^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$", "");
-
+               String word = fileReader.next()
+        .toLowerCase()
+        .replaceAll("[^a-z0-9]", "");
                 if (word.isEmpty()) {
                     continue;
                 }
