@@ -6,11 +6,25 @@ Word Counter is a simple Java utility that reads a text file and counts the tota
 
 This project is developed for the SWE 442 Software Configuration Management course.
 
+
 ## Features
-- Read a text file.
+- Read text files (.txt).
 - Count the total number of words.
-- Display the result.
-- Handle file-not-found errors.
+- Count lines and characters.
+- Identify the most common word.
+- Display word frequency.
+- Case-insensitive word analysis.
+- Validate file paths and handle errors.
+
+## Version History
+- v1.0: Initial Word Counter.
+- v1.1: Added validation, line and character counting,
+  and word frequency analysis.
+
+## Team Contributions
+- Faris-71: Input validation.
+- Asim5i: Line and character counting.
+- azi566: Most common word detection.
 
 ## How to Run
 1. Download the project.
